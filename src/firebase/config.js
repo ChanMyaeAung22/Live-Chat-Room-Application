@@ -7,10 +7,10 @@ const firebaseConfig = {
     storageBucket: "vue-blog-system-1d796.appspot.com",
     messagingSenderId: "737293996465",
     appId: "1:737293996465:web:5b37e603f45dc664402d90"
-  };
+};
 
-  firebase.initializeApp("firebaseConfig");
-  let db=firebase.firestore();
-  let timestamp=firebase.firestore.FieldValue.serverTimestamp;
+firebase.initializeApp("firebaseConfig");
+let db = firebase.firestore();
+let timestamp = firebase.firestore.FieldValue.serverTimestamp;
 
-  export {db,timestamp}
+export { db, timestamp }
